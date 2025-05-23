@@ -1,0 +1,24 @@
+{
+  "name": "mgakif/adminer-panel",
+  "description": "Laravel route üzerinden güvenli Adminer entegrasyonu.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mgakif\\AdminerPanel\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mgakif\\AdminerPanel\\AdminerPanelServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
